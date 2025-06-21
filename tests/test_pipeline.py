@@ -13,7 +13,7 @@ from core.background_utils import (
 )
 from core.image_io import read_image, save_image_to_file, save_transparent_png
 
-# === Configuration ===
+# Configuration
 IMAGE_PATH = "assets/sample.jpg"                  # Input test image
 MODEL_PATH = "checkpoints/u2net.pth"              # Pretrained weights
 OUTPUT_DIR = "tests/output"                       # Output directory

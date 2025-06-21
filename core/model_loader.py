@@ -11,11 +11,15 @@ def load_model(checkpoint_path: str):
     if not os.path.exists(checkpoint_path):
         raise FileNotFoundError(f"Checkpoint not found at: {checkpoint_path}")
 
-    model = U2NET(in_ch=3, out_ch=1)
+    # model = U2NET(in_ch=3, out_ch=1)
 
-    # Loading model weights
-    state_dict = torch.load(checkpoint_path, map_location=torch.device('cpu'))
-    model.load_state_dict(state_dict)
+    # # Loading model weights
+    # state_dict = torch.load(checkpoint_path, map_location=torch.device('cpu'))
+    # model.load_state_dict(state_dict)
+
+    model = U2NET(in_ch=3, out_ch=1)
+    state = torch.load(checkpoint_path, map_location="cpu")
+    model.load_state_dict(state)
 
     # Moving model to the device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

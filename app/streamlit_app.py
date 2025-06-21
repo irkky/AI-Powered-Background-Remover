@@ -17,9 +17,8 @@ from core.background_utils import (
 )
 from core.image_io import save_transparent_png
 
-#MODEL_PATH = "checkpoints/u2net.pth"
-MODEL_LOCAL = "checkpoints/u2net.pth"
-if not os.path.exists(MODEL_LOCAL):
+MODEL_PATH = "checkpoints/u2net.pth"
+if not os.path.exists(MODEL_PATH):
     # this will download your file once and cache locally
     hf_hub_download(
         repo_id="irkky/u2net-background-remover",

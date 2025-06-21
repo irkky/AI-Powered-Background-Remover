@@ -54,6 +54,13 @@
 
 </details>
 
+<!-- Add your GIF here -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/irkky/AI-Powered-Background-Remover/main/assets/demo/Video.gif" width="600" alt="Demo GIF"/>
+</p>
+
+> <em>Watch the background-removal process in action!</em>
+
 ---
 
 ## 🛠 Installation

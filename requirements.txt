@@ -46,3 +46,9 @@ tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
 huggingface_hub
+streamlit
+numpy
+Pillow
+torch
+torchvision
+opencv-python-headless

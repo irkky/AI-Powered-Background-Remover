@@ -1,34 +1,17 @@
 # 🎨 AI‑Powered Background Remover
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![Streamlit](https://img.shields.io/badge/streamlit-1.0-orange)](https://streamlit.io/)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/) [![Streamlit](https://img.shields.io/badge/streamlit-1.0-orange)](https://streamlit.io/)
 
 > **Instantly remove or replace image backgrounds** using a state‑of‑the‑art U²‑Net deep‑learning model, wrapped in a sleek Streamlit UI.
 
 ---
 
 <p align="center">
-  <video width="720" controls>
-    <source src="demo/demo.mp4" type="video/mp4">
-    Your browser does not support embedded videos.  
-    <a href="demo/demo.mp4">Download the demo video</a>.
-  </video>
+<!-- Add your GIF here -->
+  <img src="https://raw.githubusercontent.com/irkky/AI-Powered-Background-Remover/main/assets/demo/Video.gif" width="800" alt="Demo GIF"/>
   <br>
   <em>Live demo: remove background, apply blur, color fill or custom image in seconds.</em>
 </p>
-
----
-
-## 📋 Table of Contents
-
-1. [Features](#-features)  
-2. [Demo & Screenshots](#-demo--screenshots)  
-3. [Installation](#-installation)  
-4. [Usage](#-usage)  
-5. [Project Structure](#-project-structure)  
-6. [Advanced Options](#-advanced-options)  
-7. [Deployment](#-deployment)  
-8. [Contributing](#-contributing)  
-9. [License](#-license)  
 
 ---
 
@@ -50,16 +33,9 @@
 
 | Original | Mask Overlay | Result |
 |:--------:|:------------:|:------:|
-| <img src="assets/1603475977490-01.jpeg" width="200"/> | <img src="assets/mask overlay.png" width="200"/> | <img src="assets/sample_result.png" width="200"/> |
+| <img src="assets/1603475977490-01.jpeg" width="200"/> | <img src="assets/mask overlay.png" width="200"/> | <img src="assets/no_bg_1603475977490-01.jpeg" width="200"/> |
 
 </details>
-
-<!-- Add your GIF here -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/irkky/AI-Powered-Background-Remover/main/assets/demo/Video.gif" width="600" alt="Demo GIF"/>
-</p>
-
-> <em>Watch the background-removal process in action!</em>
 
 ---
 

@@ -1,4 +1,5 @@
 import streamlit as st
+from huggingface_hub import hf_hub_download
 from PIL import Image
 import numpy as np
 import sys, os
@@ -16,7 +17,16 @@ from core.background_utils import (
 )
 from core.image_io import save_transparent_png
 
-MODEL_PATH = "checkpoints/u2net.pth"
+#MODEL_PATH = "checkpoints/u2net.pth"
+MODEL_LOCAL = "checkpoints/u2net.pth"
+if not os.path.exists(MODEL_LOCAL):
+    # this will download your file once and cache locally
+    hf_hub_download(
+        repo_id="irkky/u2net-background-remover",
+        filename="u2net.pth",
+        local_dir="checkpoints",
+        local_dir_use_symlinks=False
+    )
 
 @st.cache_resource
 def load_u2net_model():

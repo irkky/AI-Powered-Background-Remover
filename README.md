@@ -21,8 +21,7 @@
 - 🎨 **Multiple Modes**: Blur, solid‑color, or custom image backgrounds.  
 - ⚙️ **Threshold Slider**: Fine‑tune mask sensitivity.  
 - 🔄 **Single & Batch**: Process one or many images at once.  
-- ⚡ **Instant UI**: Powered by Streamlit with responsive layout.  
-- 🚀 **Easy Deployment**: Works on Hugging Face Spaces, Render, Vercel.  
+- ⚡ **Instant UI**: Powered by Streamlit with responsive layout.
 
 ---
 
@@ -33,7 +32,13 @@
 
 | Original | Mask Overlay | Result |
 |:--------:|:------------:|:------:|
-| <img src="assets/1603475977490-01.jpeg" width="200"/> | <img src="assets/mask overlay.png" width="200"/> | <img src="assets/no_bg_1603475977490-01.jpeg" width="200"/> |
+| <img src="assets/1603475977490-01.jpeg" width="400"/> | <img src="assets/mask overlay.png" width="400"/> | <img src="assets/no_bg_1603475977490-01.jpeg" width="400"/> |
+
+---
+
+| Custom background img | Bg removed img | Result |
+|:---------------------:|:--------------:|:------:|
+| <img src="assets/1603473983992-01.jpeg" width="400"/> | <img src="assets/no_bg_1603475977490-01.jpeg" width="400"/> | <img src="assets/custom_bg.png" width="400"/> |
 
 </details>
 

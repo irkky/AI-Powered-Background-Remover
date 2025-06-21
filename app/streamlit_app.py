@@ -22,7 +22,7 @@ MODEL_PATH = "checkpoints/u2net.pth"
 def load_u2net_model():
     return load_model(MODEL_PATH)
 
-# ── Global CSS ────────────────────────────────────────────────────────────────
+# Global CSS
 st.markdown("""
 <style>
 body {background-color: #f8f9fa;}
@@ -45,7 +45,7 @@ footer {visibility: hidden;}
 </style>
 """, unsafe_allow_html=True)
 
-# ── Page Config ───────────────────────────────────────────────────────────────
+# Page Config
 st.set_page_config(
     page_title="AI Background Remover",
     page_icon="🎨",
@@ -55,7 +55,7 @@ st.set_page_config(
 st.title("🎨 AI‑Powered Background Remover")
 st.markdown("> Create transparent PNGs or swap in new backgrounds in just a few clicks")
 
-# ── Sidebar Settings ───────────────────────────────────────────────────────────
+# Sidebar Settings
 with st.sidebar:
     st.header("⚙️ Settings")
     bg_option = st.selectbox("Background Mode", ["Transparent", "Blur", "Solid Color", "Custom Image"])
@@ -72,7 +72,7 @@ with st.sidebar:
     st.markdown("---")
     st.write("Built by [Rishabh Kannaujiya](https://github.com/irkky)")
 
-# ── Main Interface ─────────────────────────────────────────────────────────────
+# Main Interface
 tab1, tab2 = st.tabs(["Single Image", "Batch Process"])
 
 for tab_idx, tab in enumerate((tab1, tab2)):
@@ -146,10 +146,9 @@ for tab_idx, tab in enumerate((tab1, tab2)):
         else:
             st.info("Upload an image to get started ✨")
 
-# ── Footer ─────────────────────────────────────────────────────────────────────
+# Footer
 st.markdown("""
 <footer style='text-align:center; margin-top:2rem;'>
     &copy; 2025 Rishabh Kannaujiya — Powered by Streamlit & U²‑Net
 </footer>
 """, unsafe_allow_html=True)
-# ── End of Streamlit App ───────────────────────────────────────────────────────

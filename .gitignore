@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# VS Code settings
+.vscode/
+
+# Model checkpoints and weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Streamlit cache
+.streamlit/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Image output or processed files
+*.png
+*.jpg
+*.jpeg
+output/
+results/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python notebooks (if any auto-save files)
+*.ipynb_checkpoints
+
+# Environment files
+.env
+.env.*
+
+# Test coverage reports
+htmlcov/
+.coverage
+.cache
+.tox/
+.nox/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Pyre type checker
+.pyre/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo

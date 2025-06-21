@@ -50,7 +50,7 @@
 
 | Original | Mask Overlay | Result |
 |:--------:|:------------:|:------:|
-| <img src="assets/sample.jpg" width="200"/> | <img src="assets/sample_mask_overlay.jpg" width="200"/> | <img src="assets/sample_result.png" width="200"/> |
+| <img src="assets/1603475977490-01.jpeg" width="200"/> | <img src="assets/sample_mask_overlay.jpg" width="200"/> | <img src="assets/sample_result.png" width="200"/> |
 
 </details>
 

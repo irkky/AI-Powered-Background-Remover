@@ -65,3 +65,5 @@ build/
 *.bak
 *.swp
 *.swo
+
+checkpoints/u2net.pth
